@@ -4,7 +4,7 @@ metadata:
   name: route-demo-ingress
   namespace: default
 spec:
-  ingressClassName: traefik
+  ingressClassName: nginx
   rules:
     - host: route-demo.example.com
       http:
